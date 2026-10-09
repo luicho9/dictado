@@ -26,7 +26,7 @@ Add to `~/.config/hypr/hyprland.lua`:
 
 ```lua
 hl.bind(mainMod .. " + D", hl.dsp.exec_cmd("dictado start"))
-hl.bind(mainMod .. " + D", hl.dsp.exec_cmd("dictado stop"), { release = true, ignore_mods = true })
+hl.bind(mainMod .. " + D", hl.dsp.exec_cmd("dictado stop"), { release = true })
 ```
 
 ## Config
